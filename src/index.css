@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url("https://cur.cursors-4u.net/games/gam-11/gam1090.png"), auto ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav-active{
+  color: coral;
+}
+
+.header{
+  display:flex;
+  justify-content: center;
+}
+
+.dofusimg{
+  width: 100px;
+}
+
+.navbar-container{
+  display: flex;
+  
+}
+
+.navbar{
+  background-color: #292921;
+width: 100px;
+height: 100vh;
+}
+
