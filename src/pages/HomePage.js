@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="Homepage">
             <div className='navbar-container'>
                 <Navbar/>
-                <div>
+                <div className='content-page'>
                     <Header/>
                     <CardContainer/>
                 </div>
