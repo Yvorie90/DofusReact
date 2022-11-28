@@ -24,6 +24,10 @@ li{
   padding-top: 1em;
 }
 
+.fourofour-content{
+  text-align: center;
+  margin-top: 3em;
+}
 
 .nav-active{
   list-style: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50" viewBox="0 0 50 50" xml:space="preserve"><g transform="matrix(0 0 0 0 0 0)" id="043b2c4e-6b20-4313-861b-3d64fc443cf6"  ></g><g transform="matrix(1 0 0 1 25 25)" id="27b4e0a8-412f-4cae-bd74-02d3a1bcf28b"  ><rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-25" y="-25" rx="0" ry="0" width="50" height="50" /></g><g transform="matrix(0 0.69 -0.69 0 24.7 24.58)" id="c8dd0802-02ef-4e50-aa54-89ea8e58010c"  ><polygon style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(80,182,223); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  points="-37.43,32.41 0,-32.41 37.43,32.41 " /></g></svg>');
