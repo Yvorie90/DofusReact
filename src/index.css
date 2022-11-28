@@ -47,10 +47,10 @@ li{
 }
 
 .navbar{
+  position: fixed;
   background-color: #292921;
   width: 80px !important;
   min-height: 100vh;
-  max-height: auto;
 
 }
 
@@ -59,8 +59,9 @@ li{
 }
 
 .content-page{
+  margin-left: 80px;
   width: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .items-container{
@@ -87,6 +88,16 @@ li{
   text-align: center;
 }
 
+.img-item{
+  height: 200px;
+  width: 200px;
+  padding-bottom: 1em;
+}
+
+.welcome-header{
+  margin: 1em 0 0 0;
+}
+
 .item-name{
   padding-bottom: 1em;
 }
@@ -97,22 +108,19 @@ li{
   visibility: hidden;
   max-width: 200px;
   background-color: #555;
-  padding: 1em;
+  padding: 0.7em;
   border-radius: 10px;
-  
+  margin-left: -160px;
+  transition: opacity 0.3s;
+  opacity: 0;
 }
 
-
-.description:hover{
+.description-container:hover .description{
   visibility: visible;
+  opacity: 1;
 }
 
-.img-item{
-  height: 200px;
-  width: 200px;
-  padding-bottom: 1em;
-}
-
-.welcome-header{
-  margin: 1em 0 0 0;
+.info-img{
+  position: absolute;
+  margin-left: 70px;
 }
