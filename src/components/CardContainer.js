@@ -7,7 +7,7 @@ const CardContainer = () => {
     const [data, setData] = useState([])
     
     useEffect(() =>{
-        axios.get("https://api.dofusdu.de/dofus2/fr/items/equipment/all?filter[type_name]=dofus")
+        axios.get("https://api.dofusdu.de/dofus2/fr/items/equipment/all")
         .then((res) => setData(res.data))
     })
 
