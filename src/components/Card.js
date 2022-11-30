@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import {useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import infoH from '../img/info-hover.png'
 
 const Card = ({item}) => {
