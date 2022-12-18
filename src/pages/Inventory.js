@@ -7,7 +7,8 @@ const Inventory = () => {
             <div className='navbar-container'>
                 <Navbar/>
                 <div className='content-page'>
-                    TEST
+                    Inventaire
+                    - redux pas encore implémenté -
                 </div>
             </div>
         </div>
